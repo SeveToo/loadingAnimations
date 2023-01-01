@@ -1,24 +1,24 @@
 <div align="center" id="top"> 
   
 <h1 align="center">World Map</h1>
-  <a target="_blank" href="https://sevetoo.github.io/loadingAnimation/">
+  <a target="_blank" href="https://sevetoo.github.io/loadingAnimations/">
   <img src="./preview.png" alt="Loading Animation" />
   </a>
 
 &#xa0;
 
-<a target="_blank" href="https://sevetoo.github.io/loadingAnimation/">Demo</a>
+<a target="_blank" href="https://sevetoo.github.io/loadingAnimations/">Demo</a>
 
 </div>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/SeveToo/loadingAnimation?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/SeveToo/loadingAnimations?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/SeveToo/loadingAnimation?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/SeveToo/loadingAnimations?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/SeveToo/loadingAnimation?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/SeveToo/loadingAnimations?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/SeveToo/loadingAnimation?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/SeveToo/loadingAnimations?color=56BEB8">
 </p>
 
 <p align="center">
@@ -52,12 +52,12 @@ The following tools were used in this project:
 ## :white_check_mark: Requirements
 
 You just need a browser.
-https://sevetoo.github.io/loadingAnimation/
+https://sevetoo.github.io/loadingAnimations/
 
 ## :checkered_flag: Starting
 
 download the project and open **index.html**
-or open in browser ( <a href="https://sevetoo.github.io/loadingAnimation/" >click link</a> )
+or open in browser ( <a href="https://sevetoo.github.io/loadingAnimations/" >click link</a> )
 
 ## 😎 Made by
 
