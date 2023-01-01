@@ -1,0 +1,498 @@
+body {
+  background: #0d161f;
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.jeden .lewy > *,
+.jeden .prawy > *,
+.jeden .prawyprawy > *,
+.dwa .lewy > *,
+.dwa .prawy > *,
+.dwa .prawyprawy > * {
+  margin: 20px;
+}
+.jeden .lewy #loader-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .lewy #loader-container2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .lewy #loader-container3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .lewy .loader-div {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 7px solid transparent;
+  border-radius: 50%;
+  border-top: 7px solid #09f;
+  animation: rotate 5s linear infinite;
+}
+.jeden .lewy .loader-div2 {
+  /* box-sizing: border-box; */
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid transparent;
+  border-radius: 50%;
+  border-top: 8px solid #09f;
+  animation: rotate 5s linear infinite;
+}
+.jeden .lewy .loader-div3 {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid transparent;
+  border-radius: 50%;
+  border-top: 8px solid #09f;
+  animation: rotate 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lewy,
+.prawy,
+.prawyprawy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.jeden .prawy #loader-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+.jeden .prawy #loader-container2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .prawy #loader-container3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .prawy .loader-div {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 7px solid #09f;
+  border-radius: 50%;
+  border-top: 7px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.jeden .prawy .loader-div2 {
+  /* box-sizing: border-box; */
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.jeden .prawy .loader-div3 {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jeden .prawyprawy #loader-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.jeden .prawyprawy #loader-container2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .prawyprawy #loader-container3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.jeden .prawyprawy .loader-div {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 7px solid #09f;
+  border-radius: 50%;
+  border-top: 7px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.jeden .prawyprawy .loader-div .loader-div,
+.jeden .prawyprawy .loader-div .loader-div .loader-div .loader-div,
+.jeden
+  .prawyprawy
+  .loader-div
+  .loader-div
+  .loader-div
+  .loader-div
+  .loader-div
+  .loader-div {
+  border: 8px solid transparent;
+  border-top: 8px solid #f90;
+}
+.jeden .prawyprawy .loader-div .loader-div .loader-div,
+.jeden .prawyprawy .loader-div .loader-div .loader-div .loader-div .loader-div {
+  border: 8px solid #09f;
+  border-top: 8px solid transparent;
+}
+.jeden .prawyprawy .loader-div2 {
+  /* box-sizing: border-box; */
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.jeden .prawyprawy .loader-div2 .loader-div2,
+.jeden .prawyprawy .loader-div2 .loader-div2 .loader-div2 .loader-div2,
+.jeden
+  .prawyprawy
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2 {
+  border: 8px solid transparent;
+  border-top: 8px solid #f90;
+}
+.jeden .prawyprawy .loader-div2 .loader-div2 .loader-div2,
+.jeden
+  .prawyprawy
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2 {
+  border: 8px solid #09f;
+  border-top: 8px solid transparent;
+}
+.jeden .prawyprawy .loader-div3 {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jeden .prawyprawy .loader-div3 .loader-div3,
+.jeden .prawyprawy .loader-div3 .loader-div3 .loader-div3 .loader-div3,
+.jeden
+  .prawyprawy
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3 {
+  border: 8px solid transparent;
+  border-top: 8px solid #09f;
+}
+.jeden .prawyprawy .loader-div3 .loader-div3 .loader-div3,
+.jeden
+  .prawyprawy
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3 {
+  border: 8px solid #f90;
+  border-top: 8px solid transparent;
+  overflow: hidden;
+}
+
+.dwa .lewy #loader-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+.dwa .lewy #loader-container2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.dwa .lewy #loader-container3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.dwa .lewy .loader-div {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 7px solid transparent;
+  border-radius: 50%;
+  border-top: 7px solid #09f;
+  border-bottom: 7px solid white;
+  animation: rotate 5s linear infinite;
+}
+.dwa .lewy .loader-div2 {
+  /* box-sizing: border-box; */
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid transparent;
+  border-radius: 50%;
+  border-top: 8px solid #09f;
+  border-bottom: 8px solid white;
+  animation: rotate 5s linear infinite;
+}
+.dwa .lewy .loader-div3 {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid transparent;
+  border-radius: 50%;
+  border-top: 8px solid #09f;
+  border-bottom: 8px solid white;
+  animation: rotate 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dwa .lewy,
+.prawy,
+.jeden .prawyprawy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.dwa .prawy #loader-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+.dwa .prawy #loader-container2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.dwa .prawy #loader-container3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.dwa .prawy .loader-div {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 7px solid #09f;
+  border-radius: 50%;
+  border-top: 7px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.dwa .prawy .loader-div2 {
+  /* box-sizing: border-box; */
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.dwa .prawy .loader-div3 {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dwa .prawyprawy #loader-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.dwa .prawyprawy #loader-container2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.dwa .prawyprawy #loader-container3 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+.dwa .prawyprawy .loader-div {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 7px solid #09f;
+  border-radius: 50%;
+  border-top: 7px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.dwa .prawyprawy .loader-div .loader-div,
+.dwa .prawyprawy .loader-div .loader-div .loader-div .loader-div,
+.dwa
+  .prawyprawy
+  .loader-div
+  .loader-div
+  .loader-div
+  .loader-div
+  .loader-div
+  .loader-div {
+  border: 8px solid transparent;
+  border-top: 8px solid #f90;
+  border-bottom: 8px solid #f90;
+}
+.dwa .prawyprawy .loader-div .loader-div .loader-div,
+.dwa .prawyprawy .loader-div .loader-div .loader-div .loader-div .loader-div {
+  border: 8px solid #09f;
+  border-top: 8px solid transparent;
+}
+.dwa .prawyprawy .loader-div2 {
+  /* box-sizing: border-box; */
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+}
+.dwa .prawyprawy .loader-div2 .loader-div2,
+.dwa .prawyprawy .loader-div2 .loader-div2 .loader-div2 .loader-div2,
+.dwa
+  .prawyprawy
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2 {
+  border: 8px solid transparent;
+  border-bottom: 8px solid #f90;
+  border-top: 8px solid #f90;
+}
+.dwa .prawyprawy .loader-div2 .loader-div2 .loader-div2,
+.dwa
+  .prawyprawy
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2
+  .loader-div2 {
+  border: 8px solid #09f;
+  border-top: 8px solid transparent;
+}
+.dwa .prawyprawy .loader-div3 {
+  box-sizing: border-box;
+  width: calc(100% - 15px);
+  height: calc(100% - 15px);
+  border: 8px solid #09f;
+  border-radius: 50%;
+  border-top: 8px solid transparent;
+  animation: rotate 5s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dwa .prawyprawy .loader-div3 .loader-div3,
+.dwa .prawyprawy .loader-div3 .loader-div3 .loader-div3 .loader-div3,
+.dwa
+  .prawyprawy
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3 {
+  border: 8px solid transparent;
+  border-top: 8px solid #09f;
+  border-bottom: 8px solid #09f;
+}
+.dwa .prawyprawy .loader-div3 .loader-div3 .loader-div3,
+.dwa
+  .prawyprawy
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3
+  .loader-div3 {
+  border: 8px solid #f90;
+  border-top: 8px solid transparent;
+  overflow: hidden;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
